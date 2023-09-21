@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 1px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.dashbord {
+    font-family: Sora;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: rgb(48, 48, 48);
+}
+
+i {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.card-single {
+    display: flex;
+    background-color: aliceblue;
+    font-family: Sora;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 250px;
+    width: 90%;
+    justify-content: center;
+}
+
+.card {
+    display: grid;
+    padding: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    color: rgb(65, 65, 65);
+}
+
+span {
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+    color: rgb(65, 65, 65);
+}
+
+.card-single div i {
+    font-size: 30px;
+    color: coral;
+}
+
+.customerdiv , .admindiv {
+    background-color: aliceblue;
+    max-width: 1500px;
+    padding: 30px;
+    padding-right: 20px;
+    position: relative;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.admindiv{
+    position: relative;
+    top: 10px;
+}
+
+.adminpanneldiv {
+    background-color: aliceblue;
+    max-width: 730px;
+    padding: 30px;
+    padding-right: 20px;
+    position: relative;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.Customerh1 {
+    font-family: sora;
+    color: rgb(65, 65, 65);
+}
+
+.table {
+    padding: 25px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    color: rgb(65, 65, 65);
+    margin: auto;
+}
+
+td {
+    background-color: rgb(255, 88, 27);
+    padding: 2px;
+    padding-right: 100px;
+    color: aliceblue;
+    margin: 5px;
+    text-align: center;
+}
+
+.adminprofilediv {
+    background-color: aliceblue;
+    max-width: 290px;
+    padding: 30px;
+    position: relative;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Sora;
+    color: rgb(65, 65, 65);
+    margin: auto;
+}
+
+.profiledetails {
+    font-size: 15px;
+    justify-content: center;
+    display: inline;
+}
+
+.details {
+    font-size: 20px;
+    color: coral;
+}
+
+.Datadetails {
+    background-color: antiquewhite;
+    padding-inline: 40px;
+    padding: 5px;
+}
+
+.Adminimg {
+    width: 70px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.edit {
+    background-color: rgb(255, 85, 0);
+    color: black;
+}
+
+.Addnewadmindiv {
+    position: absolute;
+    top: 140%;
+    left: 13%;
+}
+
+.Addnewadminbtn {
+    padding: 30px;
+    border-radius: 20px;
+    border-style: none;
+    font-family: Sora;
+    background-color: rgb(255, 85, 0);
+    color: aliceblue;
+}
+
+.addadminbtnhref {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+.addadminbtnhref:hover {
+    color: black;
+}
+
+.Addnewclientbtn {
+    position: relative;
+    left: -500px;
+    padding: 10px;
+    background-color: rgb(52, 150, 255);
+    border-style: none;
+    color: aliceblue;
+    font-family: Sora;
+    border-radius: 10px;
+}
+
+.ClientProposal {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.ClientProposal:hover {
+    color: rgb(255, 186, 11);
+}
+
+.clientdetailsupdatebtn{
+    padding: 3px;
+    color: rgb(52, 150, 255);
+    border-radius: 5px;
+}
+.clientdetailsdeletebtn{
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}

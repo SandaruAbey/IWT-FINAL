@@ -1,0 +1,363 @@
+ @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: rgb(216, 216, 216);
+    overflow-y: scroll;
+}
+
+.logoimg{
+    width: 100px;
+    height: 54px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+header{
+    display: flex;
+    padding-block: 5px;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-block-end: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;  /*property ensures that the header appears on top of other elements.*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #ff6f00;
+}
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family:Sora,'sans';
+    
+}
+.contact {
+    padding: 12px;
+    background-image: linear-gradient(45deg, #ff6f00, #ff0055);
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    color: aliceblue;
+  }
+  a:hover{
+    color: #c80404;
+  }
+  .contact:hover{
+    color: #000000;
+    
+  }
+
+  .form{
+    margin-left: -350px;
+    font-size: 20px;
+
+
+  }
+
+
+
+  .theam {
+    font-size: 70px;
+    font-family: Montserrat, sans-serif;
+    padding-left: 20px;
+}
+.theam2 {
+    font-size: 70px;
+    font-family: Montserrat, sans-serif;
+    padding-left: 20px;
+   
+    margin-top: 10px;
+}
+.theam3 {
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    padding-left: 20px;
+    margin-top: -180px;
+}
+
+.theam1{
+    font-size: 30px;
+    margin-left: -10px;
+    align-items: center;
+
+ 
+}
+.box{
+    width: 300px;
+    height:30px;
+    margin-left: -150px;
+    margin-top: 8px;
+    color: gray;
+
+
+
+}
+.up{
+    background-color:#ff0000;
+    height:47.5px;
+}
+
+.del{
+    background-color:black;
+   
+     
+}
+.delp{
+    color: #ffffff;
+     height:15px;
+     
+}
+
+.highlight1 {
+    color: #ff0000;
+}
+
+.table{
+    width: 45%;
+    height: 50%;
+    margin-top: -50px; 
+    margin-left: 60px;
+    background-color:#ffffff;
+}
+
+.th1{
+     
+    background-color: #ff0000;
+    
+}
+.th4{
+     
+    background-color: #ffffff;
+     
+     
+    
+}
+.td1 {
+    background-color: black;
+}
+.p1{
+    padding-top:0px;
+}
+.button{
+    width:240px ;
+    height:50px;
+    color:black;
+    font-size: 20;
+    align-items: center;
+    background-color:#ff0000 ;
+
+}
+.divtheam {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imglap {
+    width: 680px;
+    height: 450px;
+    margin-right: 50px;
+    position: absolute;
+    right: -45px;
+    top: 90px;
+    mix-blend-mode:multiply;
+}
+.imglap1 {
+    width: 550px;
+    height: 450px;
+    margin-right: 100px;
+    position: absolute;
+    position: absolute;
+    right: -45px;
+    top: 90px;
+    mix-blend-mode:multiply;
+}
+
+
+.pic{
+    width:500px;
+    height:400px
+
+
+}
+ 
+/* Media Query for responsive layout */
+@media (max-width: 768px) {
+    .divtheam {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .imglap {
+        position: static;
+        margin-right: 50;
+        margin-top: 20px;
+    }
+}
+.divbrands{
+    background-color: #ac0101;
+    width: 100%;
+    height: 250px;
+    border-block-end:15px;
+    position:static;
+    left: 0; /*deptathata ida tynne nthi wenna*/
+    align-items: center;
+}
+.pbrand {
+    color: azure;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.ulbrands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.librands {
+    position: relative;
+    top : -20px;
+    margin-right: 20px;
+    list-style: none; /* Remove default list styles */
+}
+
+.bimg1,
+.bimg2
+ {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+.bimg3{
+    height: 140px;
+}
+.bimg4{
+    height: 100px;
+}
+.bimg5{
+    width: 350px;
+    height: 90px;
+}
+.footer{
+    margin: 50px;
+}
+.mobi{
+    width: 700px;
+}
+.divtheam{
+    display:flex;
+}
+.why{
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}
+footer {
+    
+    background-color: rgb(216, 0, 0); /* Replace with your desired background color */
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    z-index: 100;  /*property ensures that the header appears on top of other elements.*/
+    justify-content: flex-start;
+  }
+  .pfooter{
+    padding-top: 20px;
+    font-size: 25px;
+    float: left;
+    font-family: Poppins,sans-serif;
+  }
+  .emailform{
+    position: relative;
+    top: 100px;
+    right: 280px;
+  }
+  .emailin{
+    padding: 10px;
+    width: 350px;
+    position: absolute;
+    right: 660px;
+    font-family:  Poppins,sans-serif;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    @media (max-width: 768px) {
+        position: fixed;
+        top: 50px;
+        right: 20px;
+      }
+  }
+  .emailin:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+  
+.emailsend  {
+border-style: none;
+padding: 11.5px;
+position: absolute;
+right: 644px;
+background-color: #c80404;
+color: #ffffff;
+font-family:Poppins,sans-serif ;
+border-radius: 30px;
+width: 100px;
+
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+transition: color 0.3s ease;
+  }
+  .emailin:hover{
+    
+    background-color: antiquewhite;
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px;
+    
+  }
+.emailsend:hover{
+   color: #333333;
+}
+.socialmedia{
+    position: absolute;
+    max-width: 450px;
+    padding: 25;
+    top : 240%;
+    left: 5%;
+    font-family: Montserrat , sans-serif;
+    
+}
+.fb{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 50px 60px 70px;
+    text-align: start;
+    align-self: flex-start;
+
+    
+}
